@@ -1,0 +1,49 @@
+body {
+    background-color: #1d1d1d;
+    color: aliceblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1d1d1d;
+    color: white;
+    border: 1px solid white; 
+    margin:2%
+}
+
+th {
+    background-color: #323232;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+td {
+    text-align: left;
+    max-height: min-content;
+    max-width: max-content;
+    white-space: nowrap;
+    padding: 1px;
+}
+
+tr:hover {
+    background-color: #272626;
+}
+
+td img {
+    max-width: 50px;
+    max-height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+th {
+    border-bottom: 1px solid white;
+}
+
+
+table tr:first-child td {
+    border-top: 1px solid white;
+}
